@@ -6,16 +6,19 @@
     <title>Sakher Alqaaidi's Website</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
     <style>
+        html { scroll-behavior: smooth; }
+
         body {
             margin: 0;
             /* background-color: 	#fffdf7; */
             /* background-color: #eff4fa; */
-            background-color: #222;
+            background-color: #fafafa;
             padding-left: 210px;
             padding-right: 10px;
             font-family: "Kalam";
             font-size: 20px;
-            color: white;
+            scroll-behavior: smooth;
+            /* color: white; */
         }
 
         nav {
@@ -28,12 +31,12 @@
             height: 100%;
             float: left;
             /* background-color: #f9f6ec; */
-            background-color: 	#feb600;
+            background-color: 	#00a2e2;
             /* box-shadow:3px 3x 0px #feb600; */
         }
 
         nav a {
-            color:#1f2e6c;
+            color:#ffffff;
         }
         a {
             color:#0d4277;
@@ -70,6 +73,9 @@
             border-top: 1px solid #333;
             background: white;
         }
+        nav h1 {
+            color: white;
+        }
         main {
             max-width: 900px;
             margin: 15px auto;
@@ -87,7 +93,7 @@
             margin-bottom: 250px;
         }
         h2 {
-            color:#feb600;
+            color:#00a2e2;
         }
     </style>
     <!-- Google tag (gtag.js) -->
@@ -99,6 +105,17 @@
 
   gtag('config', 'G-5712CNMC6Q');
 </script>
+<script>
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener('click', function (e) {
+//         e.preventDefault();
+
+//         document.querySelector(this.getAttribute('href')).scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//     });
+// });
+</script>
 </head>
 <body>
     
@@ -107,9 +124,9 @@
     <img src="sakher.png" id="sakher" />
     <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#teaching">Teaching</a></li>
         <li><a href="#publications">Publications</a></li>
-        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#service">Service</a></li>
     </ul>
     <ul>
         <li><a href="resume.pdf"><img src="resume.png" /><br />Resume</a></li>
@@ -125,20 +142,54 @@
     <br />
     <br />
 
+    <a name="home"></a>
 <h2>Welcome</h2>
 <p>I am a lecturer in the Department of Computer Science at Luddy School of Informatics, Computing, and Engineering at Indiana University, Bloomington. I earned my Ph.D. in Computer Science from the University of Georgia. My research interests fall into the domains of Knowledge Graphs, Natural Language Processing (NLP), Text Mining, A.I. and Data Science.</p>
+</div>
+
+<a name="publications"></a>
+<div class="page">
+<h2>Publications</h2>
+
+<ul>
+
+<li><a href="https://dl.acm.org/doi/abs/10.1145/3686397.3686417">Relations Prediction for Knowledge Graph Completion using Large Language Models
+</a>
+<br />Sakher Khalil Alqaaidi, Krzysztof J Kochut<br />
+Proceedings of the 2024 8th International Conference on Information System and Data Mining (ICISDM)
+    </li>
+    
+    <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-63219-8_18">Knowledge Graph Completion using Structural and Textual Embeddings</a>
+        <br />Sakher Khalil Alqaaidi, Krzysztof Kochut<br />
+        20th International Conference on Artificial Intelligence Applications and Innovations (AIAI)
+    </li>
+
+    <li><a href="https://icaart.scitevents.org/">Multiple Relations Classification using Imbalanced Predictions Adaptation</a>
+    <br />Sakher Khalil Alqaaidi, Elika Bozorgi, Krzysztof J. Kochut<br />
+    16th International Conference on Agents and Artificial Intelligence (ICAART)
+    </li>
+    <li><a href="https://www.igi-global.com/article/a-hybrid-approach-for-web-change-detection/89329">A Hybrid Approach for Web Change Detection</a>
+    <br />Sakher Khalil Alqaaidi<br />
+    International Journal of Information Technology and Web Engineering (IJITWE) 8(2)
+    </li>
+</ul>
+
 </div>
 
 <a name="teaching"></a>
 <div class="page">
 <h2>Teaching</h2>
 <h3>Current Courses</h3>
-Applied Algorithms
+CSCI-A 290 TOOLS FOR COMPUTING
 <br />
-Mobile App Development
+CSCI-C 322 OBJECT-ORIENTED SOFTWARE METHODS
+<br />
+CSCI-B 365 INTRODUCTION TO DATA ANALYSIS AND MINING
 
-<h3>Past Teaching Profile</h3>
+<h3>Courses Taught</h3>
 
+<h4>CSCI-B 405 Applied Algorithms</h4>
+<h4>CSCI-C 323 Mobile App Development (Android)</h4>
 <h4>Spring 2024, CSCI-1360, Foundations for Informatics and Data Analytics</h4>
 <p>The objective of this course is to familiarize students with scientific programming and data science principles through the utilization of the Python language. In this course, students engage in practical exercises to acquire skills relevant to quantitative analyses in various domains. The course begins with solid introduction to Python, empowering students with the basic programming skills. Students are introduced to data science-related mathematical concepts, then study data preprocessing and machine learning techniques. Students learn to apply skills and tools on
 numerical, visual, and textual datasets.
@@ -174,35 +225,11 @@ the course was a good experience and I look forward to taking more Python relate
 
 </div>
 
-<a name="publications"></a>
+
+
+<a name="service"></a>
 <div class="page">
-<h2>Publications</h2>
-
-<ul>
-
-<li><a href="https://arxiv.org/abs/2405.02738">Relations Prediction for Knowledge Graph Completion using Large Language Models
-</a>
-    </li>
-    
-    <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-63219-8_18">Knowledge Graph Completion using Structural and Textual Embeddings</a>
-
-    </li>
-
-    <li><a href="https://icaart.scitevents.org/">Multiple Relations Classification using Imbalanced Predictions Adaptation</a>
-    <br />Sakher Khalil Alqaaidi, Elika Bozorgi, Krzysztof J. Kochut<br />
-    16th International Conference on Agents and Artificial Intelligence (ICAART)
-    </li>
-    <li><a href="https://www.igi-global.com/article/a-hybrid-approach-for-web-change-detection/89329">A Hybrid Approach for Web Change Detection</a>
-    <br />Sakher Khalil Alqaaidi<br />
-    International Journal of Information Technology and Web Engineering (IJITWE) 8(2)
-    </li>
-</ul>
-
-</div>
-
-<a name="research"></a>
-<div class="page">
-<h2>Research</h2>
+<h2>Service</h2>
 Under construction
 </div>
 </main>
