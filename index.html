@@ -1,12 +1,15 @@
 <!-- Sample HTML Structure -->
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Sakher Alqaaidi's Website</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
     <style>
-        html { scroll-behavior: smooth; }
+        html {
+            scroll-behavior: smooth;
+        }
 
         body {
             margin: 0;
@@ -31,211 +34,274 @@
             height: 100%;
             float: left;
             /* background-color: #f9f6ec; */
-            background-color: 	#00a2e2;
+            background-color: #00a2e2;
             /* box-shadow:3px 3x 0px #feb600; */
         }
 
         nav a {
-            color:#ffffff;
+            color: #ffffff;
         }
+
         a {
-            color:#0d4277;
+            color: #0d4277;
             text-decoration: none;
         }
+
         a:hover {
-            color:rgb(255, 0, 0);
-            transition:all 0.5s;
+            color: rgb(255, 0, 0);
+            transition: all 0.5s;
             border-bottom: 1px solid #333;
         }
+
         #sakher {
             width: 80%;
             margin: auto;
         }
-        nav img  {
+
+        nav img {
             width: 20%;
             margin: auto;
         }
+
         nav ul {
             /* text-align: center; */
             padding: 0px;
             margin: 25px 5px;
         }
+
         nav ul li {
             text-align: center;
             list-style: none;
             margin: 5px 0px;
         }
-        nav ul li a {
-        }
+
+        nav ul li a {}
+
         nav ul:first-of-type li a:hover {
-            color:rgb(255, 0, 0);
+            color: rgb(255, 0, 0);
             border-bottom: 1px solid #333;
             border-top: 1px solid #333;
             background: white;
         }
+
         nav h1 {
             color: white;
         }
+
         main {
             max-width: 900px;
             margin: 15px auto;
         }
+
         p {
-        text-align: justify;
+            text-align: justify;
         }
+
         p span {
             font-weight: bold;
         }
+
         h3 {
-            color:#1f2e6c;
+            color: #1f2e6c;
         }
+
         .page {
             margin-bottom: 250px;
         }
+
         h2 {
-            color:#00a2e2;
+            color: #00a2e2;
         }
     </style>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5712CNMC6Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5712CNMC6Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-5712CNMC6Q');
-</script>
-<script>
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//     anchor.addEventListener('click', function (e) {
-//         e.preventDefault();
+        gtag('config', 'G-5712CNMC6Q');
+    </script>
+    <script>
+        // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        //     anchor.addEventListener('click', function (e) {
+        //         e.preventDefault();
 
-//         document.querySelector(this.getAttribute('href')).scrollIntoView({
-//             behavior: 'smooth'
-//         });
-//     });
-// });
-</script>
+        //         document.querySelector(this.getAttribute('href')).scrollIntoView({
+        //             behavior: 'smooth'
+        //         });
+        //     });
+        // });
+    </script>
 </head>
+
 <body>
-    
-<nav>
-    <h1>Sakher Khalil Al-Qaaidi</h1>
-    <img src="sakher.png" id="sakher" />
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#teaching">Teaching</a></li>
-        <li><a href="#service">Service</a></li>
-    </ul>
-    <ul>
-        <li><a href="resume.pdf"><img src="resume.png" /><br />Resume</a></li>
-        <li><a href="https://github.com/sa5r/"><img src="github.png" /><br />GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/sakher1/"><img src="linkedin.png" /><br />LinkedIn</a></li>
-    </ul>
-    
-</nav>
-<main>
-<div class="page" name="home">
-    
-    <br />
-    <br />
-    <br />
 
-    <a name="home"></a>
-<h2>Welcome</h2>
-<p>I am a lecturer in the Department of Computer Science at Luddy School of Informatics, Computing, and Engineering at Indiana University, Bloomington. I earned my Ph.D. in Computer Science from the University of Georgia. My research interests fall into the domains of Knowledge Graphs, Natural Language Processing (NLP), Text Mining, A.I., Data Science, and CS education.</p>
+    <nav>
+        <h1>Sakher Khalil Al-Qaaidi</h1>
+        <img src="sakher.png" id="sakher" />
+        <ul>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#service">Service</a></li>
+        </ul>
+        <ul>
+            <li><a href="resume.pdf"><img src="resume.png" /><br />Resume</a></li>
+            <li><a href="https://github.com/sa5r/"><img src="github.png" /><br />GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sakher1/"><img src="linkedin.png" /><br />LinkedIn</a></li>
+        </ul>
 
-<h2>Interested in research?</h2>
-<p>I am actively seeking research collaborations with graduate students and professors in the fields mentioned above. Please note that, at present, none of my research projects are funded.</p>
-<h2>Unsure about course selection or future goals?</h2>
-<p>As your professor, I’m here to help you navigate your college experience and ensure you’re on the best path to achieving your academic and career aspirations. Feel free to connect now for an advising chat.</p>
-</div>
+    </nav>
+    <main>
+        <div class="page">
 
-<a name="publications"></a>
-<div class="page">
-<h2>Publications</h2>
+            <br />
+            <br />
+            <br />
 
-<ul>
+            <h2>Welcome</h2>
+            <p>I am a lecturer in the Department of Computer Science at Luddy School of Informatics, Computing, and
+                Engineering at Indiana University, Bloomington. I earned my Ph.D. in Computer Science from the
+                University of Georgia. My research interests fall into the domains of Knowledge Graphs, Natural Language
+                Processing (NLP), Text Mining, A.I., Data Science, and Education Analytics and Mining.</p>
 
-<li><a href="https://dl.acm.org/doi/abs/10.1145/3686397.3686417">Relations Prediction for Knowledge Graph Completion using Large Language Models
-</a>
-<br />Sakher Khalil Alqaaidi, Krzysztof J Kochut<br />
-Proceedings of the 2024 8th International Conference on Information System and Data Mining (ICISDM)
-    </li>
-    
-    <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-63219-8_18">Knowledge Graph Completion using Structural and Textual Embeddings</a>
-        <br />Sakher Khalil Alqaaidi, Krzysztof Kochut<br />
-        20th International Conference on Artificial Intelligence Applications and Innovations (AIAI)
-    </li>
+            <h2>Interested in research?</h2>
+            <p>I am actively seeking research collaborations with graduate students and professors in the fields
+                mentioned above. Please note that, at present, none of my research projects are funded.</p>
+            <h2>Advising for Luddy courses?</h2>
+            <p>As your professor, I’m here to help you navigate your college experience and ensure you’re on the best
+                path to achieving your academic and career aspirations. Feel free to connect now for an advising chat.
+            </p>
+        </div>
 
-    <li><a href="https://www.semanticscholar.org/paper/Multiple-Relations-Classification-using-Imbalanced-Alqaaidi-Bozorgi/75044976bce4f8a31e5b084ca279b2bc2e1cd5d6">Multiple Relations Classification using Imbalanced Predictions Adaptation</a>
-    <br />Sakher Khalil Alqaaidi, Elika Bozorgi, Krzysztof J. Kochut<br />
-    16th International Conference on Agents and Artificial Intelligence <a href="https://www.researchgate.net/publication/378826777_Multiple_Relations_Classification_Using_Imbalanced_Predictions_Adaptation">(ICAART)</a>
-    </li>
-    <li><a href="https://www.igi-global.com/article/a-hybrid-approach-for-web-change-detection/89329">A Hybrid Approach for Web Change Detection</a>
-    <br />Sakher Khalil Alqaaidi<br />
-    International Journal of Information Technology and Web Engineering (IJITWE) 8(2)
-    </li>
-</ul>
+        <a name="publications"></a>
+        <div class="page">
+            <h2>Publications</h2>
 
-</div>
+            <ul>
 
-<a name="teaching"></a>
-<div class="page">
-<h2>Teaching</h2>
-<ul>
-    <li><a href="https://luddy.indiana.edu/academics/courses/class/iub-spring-2025-csci-a290">CSCI-A 290 Tools for Computing (JavaScript + PHP)</a></li>
-    <li><a href="https://academics.iu.edu/courses/bloomington/csci-c-322-object-oriented-software-methods.html">CSCI C322 - Object-oriented Software Mthds</a></li>
-    <li><a href="https://luddy.indianapolis.iu.edu/degrees/courses/csci-b365">CSCI-B 365 Introduction to Data Analysis and Mining</a></li>
-</ul>
+                <li><a href="https://dl.acm.org/doi/abs/10.1145/3686397.3686417">Relations Prediction for Knowledge
+                        Graph Completion using Large Language Models
+                    </a>
+                    <br />Sakher Khalil Alqaaidi, Krzysztof J Kochut<br />
+                    Proceedings of the 2024 8th International Conference on Information System and Data Mining (ICISDM)
+                </li>
 
-<h3>Courses Taught</h3>
+                <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-63219-8_18">Knowledge Graph Completion
+                        using Structural and Textual Embeddings</a>
+                    <br />Sakher Khalil Alqaaidi, Krzysztof Kochut<br />
+                    20th International Conference on Artificial Intelligence Applications and Innovations (AIAI)
+                </li>
 
-<h4>CSCI-B 405 Applied Algorithms</h4>
-<h4>CSCI-C 323 Mobile App Development (Android)</h4>
-<h4>Spring 2024, CSCI-1360, Foundations for Informatics and Data Analytics</h4>
-<p>The objective of this course is to familiarize students with scientific programming and data science principles through the utilization of the Python language. In this course, students engage in practical exercises to acquire skills relevant to quantitative analyses in various domains. The course begins with solid introduction to Python, empowering students with the basic programming skills. Students are introduced to data science-related mathematical concepts, then study data preprocessing and machine learning techniques. Students learn to apply skills and tools on
-numerical, visual, and textual datasets.
-<br />
-<span>Teaching Duties</span>
-<br />
-Lesson planning, classroom instruction, design and grading assessments, office hour sessions and individual support to students who might need additional efforts.
-</p>
+                <li><a
+                        href="https://www.semanticscholar.org/paper/Multiple-Relations-Classification-using-Imbalanced-Alqaaidi-Bozorgi/75044976bce4f8a31e5b084ca279b2bc2e1cd5d6">Multiple
+                        Relations Classification using Imbalanced Predictions Adaptation</a>
+                    <br />Sakher Khalil Alqaaidi, Elika Bozorgi, Krzysztof J. Kochut<br />
+                    16th International Conference on Agents and Artificial Intelligence <a
+                        href="https://www.researchgate.net/publication/378826777_Multiple_Relations_Classification_Using_Imbalanced_Predictions_Adaptation">(ICAART)</a>
+                </li>
+                <li><a href="https://www.igi-global.com/article/a-hybrid-approach-for-web-change-detection/89329">A
+                        Hybrid Approach for Web Change Detection</a>
+                    <br />Sakher Khalil Alqaaidi<br />
+                    International Journal of Information Technology and Web Engineering (IJITWE)
+                </li>
+                <li><a href="https://www.scitepress.org/Papers/2024/127916/127916.pdf">A Few-Shot Learning-Focused
+                        Survey on Recent Named Entity Recognition and Relation Classification Models</a>
+                    <br />Sakher Khalil Alqaaidi, Elika Bozorgi, Afsaneh Shams and Krzysztof J. Kochut<br />
+                    The 13th International Conference on Data Science, Technology and Applications (DATA 2024)
+                </li>
+            </ul>
 
-<ul>
-<li>Fall 2023, CSCI-1360, Foundations for Informatics and Data Analytics</li>
-<li>Spring 2023, CSCI-1360, Foundations for Informatics and Data Analytics</li>
-<li>Fall 2023, CSt1100, Intro to Software Engineering - South College</li>
-<p>Topics introduced include foundational problem-solving using Java programming language, algorithm development, software applications, and programming using a procedural language.</p>
-<li>Fall 2023, CST2400, Programming Languages - South College</li>
-<p>Understand the language by creating working C# programs using both the simple command line and the Visual Studio environment, learn about data and how to input, store, and output data in C#, create GUI applications, explore classic programming structures—making decisions, looping, and manipulating arrays—and how to implement them in C#, provide a thorough study of methods, including passing parameters into and out of methods and overloading them, understand object-oriented concepts of inheritance and exception, learn how to save data to and retrieve data from files</p>
-<li>CSCI-1301 Introduction to Computing and Programming</li>
-<p><span>Terms:</span> Fall 2021, Spring 2021, Fall 2022, and Summer 2023<br />
-This course provides a comprehensive initiation into problem-solving through essential programming techniques, encompassing concepts such as variables, operators, expressions, decision statements, loops, nested statements, arrays, methods, and object-oriented programming. The course involves hands-on experience in creating, testing, and debugging software through programming projects that integrate algorithm design and implementation using a structured computer language.</p>
-</ul>
+        </div>
 
-<h3>Selected Teaching Feedback</h3>
-<ul>
-    <li>Student Feedback from CSCI-1360, Spring 2023</li>
-<p>This course was very interesting and touched a variety of cool topics that were engaging, especially
-for someone with little to no programming experience. I think that the activities were very helpful
-in forcing us to get familiar with Python and think critically about designing solutions to the
-provided questions. I might include more activities going forward, as I feel like the application of
-the topics we learned in the notebooks was perhaps the most beneficial part of the course. Overall,
-the course was a good experience and I look forward to taking more Python related courses.
-</p>
-</ul>
+        <a name="teaching"></a>
+        <div class="page">
+            <h2>Teaching</h2>
+            <h3>Spring 2025</h3>
+            <ul>
+                <li><a href="https://luddy.indiana.edu/academics/courses/class/iub-spring-2025-csci-a290">CSCI-A 290
+                        Tools for Computing (JavaScript + PHP)</a></li>
+                <li><a
+                        href="https://academics.iu.edu/courses/bloomington/csci-c-322-object-oriented-software-methods.html">CSCI-C
+                        322 Object-oriented Software Methods</a></li>
+                <li><a href="https://luddy.indianapolis.iu.edu/degrees/courses/csci-b365">CSCI-B 365 Introduction to
+                        Data Analysis and Mining</a></li>
+            </ul>
 
-</div>
+            <h3>Courses Taught in IU</h3>
+            <ul>
+                <li>CSCI-B 405 Applied Algorithms</li>
+                <li>CSCI-C 323 Mobile App Development (Android)</li>
+            </ul>
+
+            <h3>Other Courses</h3>
+            <ul>
+                <li>CSCI-1360, Foundations for Informatics and Data Analytics - University of Georgia</li>
+                <li>CSt1100, Intro to Software Engineering - South College</li>
+                <li>CST2400, Programming Languages - South College</li>
+            </ul>
+
+            <!-- <h4>CSCI-B 405 Applied Algorithms</h4>
+            <h4></h4>
+            <h4>Spring 2024, CSCI-1360, Foundations for Informatics and Data Analytics</h4>
+            <p>The objective of this course is to familiarize students with scientific programming and data science
+                principles through the utilization of the Python language. In this course, students engage in practical
+                exercises to acquire skills relevant to quantitative analyses in various domains. The course begins with
+                solid introduction to Python, empowering students with the basic programming skills. Students are
+                introduced to data science-related mathematical concepts, then study data preprocessing and machine
+                learning techniques. Students learn to apply skills and tools on
+                numerical, visual, and textual datasets.
+                <br />
+                <span>Teaching Duties</span>
+                <br />
+                Lesson planning, classroom instruction, design and grading assessments, office hour sessions and
+                individual support to students who might need additional efforts.
+            </p>
+
+            <ul>
+                <li>Fall 2023, CSCI-1360, Foundations for Informatics and Data Analytics</li>
+                <li>Spring 2023, CSCI-1360, Foundations for Informatics and Data Analytics</li>
+                <li>Fall 2023, CSt1100, Intro to Software Engineering - South College</li>
+                <p>Topics introduced include foundational problem-solving using Java programming language, algorithm
+                    development, software applications, and programming using a procedural language.</p>
+                <li>Fall 2023, CST2400, Programming Languages - South College</li>
+                <p>Understand the language by creating working C# programs using both the simple command line and the
+                    Visual Studio environment, learn about data and how to input, store, and output data in C#, create
+                    GUI applications, explore classic programming structures—making decisions, looping, and manipulating
+                    arrays—and how to implement them in C#, provide a thorough study of methods, including passing
+                    parameters into and out of methods and overloading them, understand object-oriented concepts of
+                    inheritance and exception, learn how to save data to and retrieve data from files</p>
+                <li>CSCI-1301 Introduction to Computing and Programming</li>
+                <p><span>Terms:</span> Fall 2021, Spring 2021, Fall 2022, and Summer 2023<br />
+                    This course provides a comprehensive initiation into problem-solving through essential programming
+                    techniques, encompassing concepts such as variables, operators, expressions, decision statements,
+                    loops, nested statements, arrays, methods, and object-oriented programming. The course involves
+                    hands-on experience in creating, testing, and debugging software through programming projects that
+                    integrate algorithm design and implementation using a structured computer language.</p>
+            </ul>
+
+            <h3>Selected Teaching Feedback</h3>
+            <ul>
+                <li>Student Feedback from CSCI-1360, Spring 2023</li>
+                <p>This course was very interesting and touched a variety of cool topics that were engaging, especially
+                    for someone with little to no programming experience. I think that the activities were very helpful
+                    in forcing us to get familiar with Python and think critically about designing solutions to the
+                    provided questions. I might include more activities going forward, as I feel like the application of
+                    the topics we learned in the notebooks was perhaps the most beneficial part of the course. Overall,
+                    the course was a good experience and I look forward to taking more Python related courses.
+                </p>
+            </ul> -->
+
+        </div>
 
 
 
-<a name="service"></a>
-<div class="page">
-<h2>Service</h2>
-Under construction
-</div>
-</main>
+        <a name="service"></a>
+        <div class="page">
+            <h2>Service</h2>
+            Under construction
+        </div>
+    </main>
 </body>
+
 </html>
